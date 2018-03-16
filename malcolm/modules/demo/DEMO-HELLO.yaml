@@ -1,17 +1,9 @@
 # Create some Blocks
 - demo.blocks.hello_block:
-    mri: HELLO
-
-- demo.blocks.hello_block:
-    mri: HELLO2
+    mri: TESTHELLO
 
 - demo.blocks.counter_block:
-    mri: COUNTER
-
-# Add a webserver
-- web.blocks.web_server_block:
-    mri: WEB
-    port: 8009
+    mri: TESTCOUNTER
 
 - pva.blocks.pva_server_block:
     mri: PVA
